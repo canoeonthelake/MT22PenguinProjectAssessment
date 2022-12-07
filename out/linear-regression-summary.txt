@@ -1,0 +1,17 @@
+Call:
+lm(formula = body_mass_g ~ culmen_length_mm, data = gentoo_massbill)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-756.8 -269.1  -26.7  250.4 1126.3 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       -123.83     526.05  -0.235    0.814    
+culmen_length_mm   109.46      11.05   9.905   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 376.2 on 121 degrees of freedom
+Multiple R-squared:  0.4478,	Adjusted R-squared:  0.4432 
+F-statistic: 98.12 on 1 and 121 DF,  p-value: < 2.2e-16
