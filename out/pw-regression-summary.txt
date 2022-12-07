@@ -1,0 +1,23 @@
+
+	***Regression Model with Segmented Relationship(s)***
+
+Call: 
+segmented.lm(obj = mod_gentoo)
+
+Estimated Break-Point(s):
+                       Est. St.Err
+psi1.culmen_length_mm   50  1.598
+
+Meaningful coefficients of the linear terms:
+                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)         -1136.40     782.20  -1.453    0.149    
+culmen_length_mm      131.39      16.80   7.822 2.35e-12 ***
+U1.culmen_length_mm   -79.38      38.45  -2.065       NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 372.1 on 119 degrees of freedom
+Multiple R-Squared: 0.4687,  Adjusted R-squared: 0.4553 
+
+Boot restarting based on 6 samples. Last fit:
+Convergence attained in 2 iterations (rel. change 4.1347e-07)
